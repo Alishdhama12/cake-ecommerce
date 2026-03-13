@@ -17,8 +17,7 @@ const MongoStore = require('connect-mongo');
 
 
 // MongoDB connection
-const url = process.env.MONGO_URL || "mongodb+srv://alish:12345678910Alishdhama12@cluster0.0w72l9o.mongodb.net/ecommerce?retryWrites=true&w=majority";
-
+const url = process.env.MONGO_URL || 
 mongoose.connect(url,{
   useNewUrlParser:true,
   useUnifiedTopology:true
